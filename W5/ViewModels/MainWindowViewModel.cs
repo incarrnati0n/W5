@@ -28,7 +28,7 @@ namespace W5.ViewModels
             {
                 Messages.Add(new Message()
                 {
-                    //messageContent =
+                    messageContent = tb
                 });
             });
         }
