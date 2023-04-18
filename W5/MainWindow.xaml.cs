@@ -25,6 +25,7 @@ namespace W5
         public MainWindow()
         {
             InitializeComponent();
+        
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -36,6 +37,12 @@ namespace W5
                 messageSender = tb_name.Text,
                 messageTime = DateTime.Now
             });
+        }
+
+        private void Second_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow second = new MainWindow();
+            second.Show();
         }
     }
 }
