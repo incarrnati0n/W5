@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using W5.Model;
 
 namespace W5
 {
@@ -23,6 +24,11 @@ namespace W5
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Send_Click(object sender, RoutedEventArgs e)
+        {
+            var message = new Message()
         }
     }
 }

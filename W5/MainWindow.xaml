@@ -10,11 +10,11 @@
         <ListBox Height="300" Width="700" Margin="50,41,50,93">
 
         </ListBox>
-        <TextBox HorizontalAlignment="Left" Margin="150,391,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="492" Height="26">
+        <TextBox x:Name="tb_message" HorizontalAlignment="Left" Margin="150,391,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="492" Height="26">
 
         </TextBox>
-        <Button Content="Send" HorizontalAlignment="Left" Margin="647,391,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
-        <TextBox HorizontalAlignment="Left" Margin="31,391,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="119" Height="26"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="647,391,0,0" VerticalAlignment="Top" Height="26" Width="38" Click="Send_Click"/>
+        <TextBox x:Name="tb_name" HorizontalAlignment="Left" Margin="31,391,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="119" Height="26"/>
         <Label Content="Put your name here" Background="LightBlue" HorizontalAlignment="Left" Margin="31,367,0,0" VerticalAlignment="Top" Width="119"/>
 
     </Grid>
