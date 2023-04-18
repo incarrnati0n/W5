@@ -26,12 +26,12 @@ namespace W5.ViewModels
 
             CreateMessageCommand = new RelayCommand(() => 
             {
-                Messages.Add(new Message()
+                /*Messages.Add(new Message()
                 {
                     messageContent = "Fasz",
                     messageSender = "Sanyo",
                     messageTime = DateTime.Now
-                });
+                });*/
             });
         }
     }

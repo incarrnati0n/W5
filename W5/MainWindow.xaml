@@ -17,7 +17,7 @@
         <TextBox x:Name="tb_message" HorizontalAlignment="Left" Margin="150,391,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="492" Height="26">
 
         </TextBox>
-        <Button Content="Send" Command="{Binding CreateMessageCommand}" HorizontalAlignment="Left" Margin="647,391,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
+        <Button Content="Send"  HorizontalAlignment="Left" Margin="647,391,0,0" VerticalAlignment="Top" Height="26" Width="38" Click="Button_Click"/>
         <TextBox x:Name="tb_name" HorizontalAlignment="Left" Margin="31,391,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="119" Height="26"/>
         <Label Content="Put your name here" Background="LightBlue" HorizontalAlignment="Left" Margin="31,367,0,0" VerticalAlignment="Top" Width="119"/>
 

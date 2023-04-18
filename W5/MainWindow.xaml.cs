@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using W5.Model;
+using W5.ViewModels;
 
 namespace W5
 {
@@ -26,5 +27,15 @@ namespace W5
             InitializeComponent();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var vm = this.DataContext as MainWindowViewModel;
+            vm.Messages.Add(new Message()
+            {
+                messageContent = tb_message.Text,
+                messageSender = tb_name.Text,
+                messageTime = DateTime.Now
+            });
+        }
     }
 }
