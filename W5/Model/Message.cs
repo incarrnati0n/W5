@@ -26,6 +26,11 @@ namespace W5.Model
 
         }
 
+        public override string ToString()
+        {
+            return $"{messageSender}: {messageContent} - {messageTime}";
+        }
+
 
     }
 }

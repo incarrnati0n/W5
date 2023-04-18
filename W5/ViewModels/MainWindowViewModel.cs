@@ -18,25 +18,6 @@ namespace W5.ViewModels
     {
         public ObservableCollection<Message> Messages { get; set; }
 
-        private Message selectedMessage;
-
-        public Message SelectedMessage
-        {
-            get { return selectedMessage; }
-            set
-            {
-                if (value != null)
-                {
-                    selectedMessage = new Message()
-                    {
-                        messageContent = value.messageContent,
-                        messageSender = value.messageSender
-                    };
-                }
-                OnPropertyChanged();
-            }
-        }
-
         public ICommand CreateMessageCommand { get; set; }
 
         public MainWindowViewModel()
@@ -47,9 +28,9 @@ namespace W5.ViewModels
             {
                 Messages.Add(new Message()
                 {
-                    messageContent = SelectedMessage.messageContent,
-                    messageSender = SelectedMessage.messageSender,
-                    messageTime = SelectedMessage.messageTime
+                    messageContent = "Fasz",
+                    messageSender = "Sanyo",
+                    messageTime = DateTime.Now
                 });
             });
         }
