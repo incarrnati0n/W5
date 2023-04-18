@@ -14,7 +14,7 @@
         <ListBox Height="300" Width="700" Margin="50,41,50,93">
 
         </ListBox>
-        <TextBox x:Name="tb_message" HorizontalAlignment="Left" Margin="150,391,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="492" Height="26">
+        <TextBox x:Name="tb_message" HorizontalAlignment="Left" Margin="150,391,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="492" Height="26" >
 
         </TextBox>
         <Button Content="Send" HorizontalAlignment="Left" Margin="647,391,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
