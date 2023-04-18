@@ -26,9 +26,6 @@ namespace W5
             InitializeComponent();
         }
 
-        /*private void Send_Click(object sender, RoutedEventArgs e)
-        {
-            var message = new Message()
-        }
+        
     }
 }
