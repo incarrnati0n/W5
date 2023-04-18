@@ -28,7 +28,8 @@ namespace W5.Model
 
         public override string ToString()
         {
-            return $"{messageSender}: {messageContent} - {messageTime}";
+            
+            return $"{messageSender}: {messageContent} - {messageTime.Hour}:{messageTime.Minute}";
         }
 
 
