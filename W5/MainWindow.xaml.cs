@@ -28,7 +28,7 @@ namespace W5
 
         /*private void Send_Click(object sender, RoutedEventArgs e)
         {
-            //var message = new Message();
-        }*/
+            var message = new Message()
+        }
     }
 }
